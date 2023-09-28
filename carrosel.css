@@ -1,0 +1,93 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: "Poppins";
+
+}
+
+.titulo__carrosel {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+div[class=swiper-button-prev],
+div[class=swiper-button-next] {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin: 0.5rem 0;
+
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes {
+    display: flex;
+
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Poppins';
+}
+
+.banana {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.kiwi {
+    color: #002F52;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.uva {
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.botoes__items {
+    margin: 0 0.5rem;
+}
+
+.saiba__mais {
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding:1rem 2.2rem;s
+}
+
+.img__angular{
+    margin-bottom: 2rem;
+}
